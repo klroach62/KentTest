@@ -1,0 +1,7 @@
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\bin\Debug\BowlingGamesTest.dll
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\bin\Debug\BowlingGamesTest.pdb
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\bin\Debug\ClassLibrary1.dll
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\bin\Debug\ClassLibrary1.pdb
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\obj\Debug\BowlingGamesTest.csprojResolveAssemblyReference.cache
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\obj\Debug\BowlingGamesTest.dll
+d:\KSU2\BowlingGamesTest\BowlingGamesTest\obj\Debug\BowlingGamesTest.pdb

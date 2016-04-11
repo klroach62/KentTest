@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7bbc6686-dc30-49d1-b008-0dd45798392b" name="KRoach@KENROACHLAPTOP 2016-04-11 14:33:14" runUser="KenRoachLaptop\KRoach" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db79200-94e9-4abe-b1af-bd478450da06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KRoach_KENROACHLAPTOP 2016-04-11 14_33_14">
+      <DeploymentItem filename="D:\ksu\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-04-11T14:33:14.5201662-04:00" queuing="2016-04-11T14:33:17.3153261-04:00" start="2016-04-11T14:33:17.5383389-04:00" finish="2016-04-11T14:33:21.4535628-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestHittingnoPinrolling" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="4a69a0a7-0eea-dabb-17d9-ad1acba519a5">
+      <Execution id="ca3fe9da-8466-4758-933d-3bfe8777ff1b" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingnoPinrolling" />
+    </UnitTest>
+    <UnitTest name="TestOneStrike" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="b7aff995-953a-e0ce-8e8d-fc08a1493f79">
+      <Execution id="34abf70f-1650-49dc-b792-9e0e4c8d4834" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneStrike" />
+    </UnitTest>
+    <UnitTest name="TestHittingOnePin" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="04e56434-7492-10f0-6745-256af73e56eb">
+      <Execution id="8b7c7236-0d49-448b-88f2-4e77c019492d" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingOnePin" />
+    </UnitTest>
+    <UnitTest name="TestGutter" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="da8ec00d-e275-2139-8d9a-7f8698a65513">
+      <Execution id="f58f9cc7-496c-4e29-b084-ca22122f1a48" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGutter" />
+    </UnitTest>
+    <UnitTest name="PerfectGame" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="272aa928-debf-b2cd-22a1-4403b46c757b">
+      <Execution id="5ef409f1-e715-486a-bb56-01670acec023" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PerfectGame" />
+    </UnitTest>
+    <UnitTest name="TestOneSpare" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="0e8508b0-51aa-3918-e685-72720ceb8b2d">
+      <Execution id="3612e514-8de7-4f84-9409-856dd34004dc" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneSpare" />
+    </UnitTest>
+    <UnitTest name="TestHittingOnePinrolling" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="0fa7a1b3-788c-c8fe-caf0-33252efd04c0">
+      <Execution id="ed9af1d1-a2fe-4e98-b15e-d1ff2fa3b05c" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingOnePinrolling" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="da8ec00d-e275-2139-8d9a-7f8698a65513" executionId="f58f9cc7-496c-4e29-b084-ca22122f1a48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04e56434-7492-10f0-6745-256af73e56eb" executionId="8b7c7236-0d49-448b-88f2-4e77c019492d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a69a0a7-0eea-dabb-17d9-ad1acba519a5" executionId="ca3fe9da-8466-4758-933d-3bfe8777ff1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fa7a1b3-788c-c8fe-caf0-33252efd04c0" executionId="ed9af1d1-a2fe-4e98-b15e-d1ff2fa3b05c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e8508b0-51aa-3918-e685-72720ceb8b2d" executionId="3612e514-8de7-4f84-9409-856dd34004dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7aff995-953a-e0ce-8e8d-fc08a1493f79" executionId="34abf70f-1650-49dc-b792-9e0e4c8d4834" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272aa928-debf-b2cd-22a1-4403b46c757b" executionId="5ef409f1-e715-486a-bb56-01670acec023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f58f9cc7-496c-4e29-b084-ca22122f1a48" testId="da8ec00d-e275-2139-8d9a-7f8698a65513" testName="TestGutter" computerName="KENROACHLAPTOP" duration="00:00:00.0204007" startTime="2016-04-11T14:33:17.6143432-04:00" endTime="2016-04-11T14:33:21.2425507-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f58f9cc7-496c-4e29-b084-ca22122f1a48">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b7c7236-0d49-448b-88f2-4e77c019492d" testId="04e56434-7492-10f0-6745-256af73e56eb" testName="TestHittingOnePin" computerName="KENROACHLAPTOP" duration="00:00:00.0004401" startTime="2016-04-11T14:33:21.2555515-04:00" endTime="2016-04-11T14:33:21.2645520-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b7c7236-0d49-448b-88f2-4e77c019492d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca3fe9da-8466-4758-933d-3bfe8777ff1b" testId="4a69a0a7-0eea-dabb-17d9-ad1acba519a5" testName="TestHittingnoPinrolling" computerName="KENROACHLAPTOP" duration="00:00:00.0005539" startTime="2016-04-11T14:33:21.2755526-04:00" endTime="2016-04-11T14:33:21.2845531-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca3fe9da-8466-4758-933d-3bfe8777ff1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed9af1d1-a2fe-4e98-b15e-d1ff2fa3b05c" testId="0fa7a1b3-788c-c8fe-caf0-33252efd04c0" testName="TestHittingOnePinrolling" computerName="KENROACHLAPTOP" duration="00:00:00.0003695" startTime="2016-04-11T14:33:21.2955538-04:00" endTime="2016-04-11T14:33:21.3035542-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9af1d1-a2fe-4e98-b15e-d1ff2fa3b05c">
+    </UnitTestResult>
+    <UnitTestResult executionId="3612e514-8de7-4f84-9409-856dd34004dc" testId="0e8508b0-51aa-3918-e685-72720ceb8b2d" testName="TestOneSpare" computerName="KENROACHLAPTOP" duration="00:00:00.0006941" startTime="2016-04-11T14:33:21.3155549-04:00" endTime="2016-04-11T14:33:21.3235554-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3612e514-8de7-4f84-9409-856dd34004dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="34abf70f-1650-49dc-b792-9e0e4c8d4834" testId="b7aff995-953a-e0ce-8e8d-fc08a1493f79" testName="TestOneStrike" computerName="KENROACHLAPTOP" duration="00:00:00.0007493" startTime="2016-04-11T14:33:21.3335560-04:00" endTime="2016-04-11T14:33:21.3425565-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34abf70f-1650-49dc-b792-9e0e4c8d4834">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ef409f1-e715-486a-bb56-01670acec023" testId="272aa928-debf-b2cd-22a1-4403b46c757b" testName="PerfectGame" computerName="KENROACHLAPTOP" duration="00:00:00.0003708" startTime="2016-04-11T14:33:21.3515570-04:00" endTime="2016-04-11T14:33:21.3595574-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ef409f1-e715-486a-bb56-01670acec023">
+    </UnitTestResult>
+  </Results>
+</TestRun>

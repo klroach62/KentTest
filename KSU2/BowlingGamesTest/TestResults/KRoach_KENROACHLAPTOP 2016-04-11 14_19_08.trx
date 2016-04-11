@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="491bcb43-2663-4741-a14e-53af838903a1" name="KRoach@KENROACHLAPTOP 2016-04-11 14:19:08" runUser="KenRoachLaptop\KRoach" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db79200-94e9-4abe-b1af-bd478450da06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KRoach_KENROACHLAPTOP 2016-04-11 14_19_08">
+      <DeploymentItem filename="D:\ksu\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-04-11T14:19:08.9808042-04:00" queuing="2016-04-11T14:19:12.2679922-04:00" start="2016-04-11T14:19:12.4029999-04:00" finish="2016-04-11T14:19:16.2782216-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestOneSpare" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="0e8508b0-51aa-3918-e685-72720ceb8b2d">
+      <Execution id="fcf89d43-eee4-45f7-8328-a18e4883b286" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneSpare" />
+    </UnitTest>
+    <UnitTest name="TestHittingnoPinrolling" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="4a69a0a7-0eea-dabb-17d9-ad1acba519a5">
+      <Execution id="ee4eba23-4572-4e99-abac-8793f08ddee9" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingnoPinrolling" />
+    </UnitTest>
+    <UnitTest name="TestHittingOnePinrolling" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="0fa7a1b3-788c-c8fe-caf0-33252efd04c0">
+      <Execution id="727efaa7-baf1-4737-9e85-417f23d84ac5" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingOnePinrolling" />
+    </UnitTest>
+    <UnitTest name="TestHittingOnePin" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="04e56434-7492-10f0-6745-256af73e56eb">
+      <Execution id="92bde9eb-05b3-4e65-a71a-681044c0955e" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHittingOnePin" />
+    </UnitTest>
+    <UnitTest name="TestGutter" storage="d:\ksu2\bowlinggamestest\bowlinggamestest\bin\debug\bowlinggamestest.dll" id="da8ec00d-e275-2139-8d9a-7f8698a65513">
+      <Execution id="efd90c98-09ed-4364-93bf-88a3a7a15924" />
+      <TestMethod codeBase="d:/KSU2/BowlingGamesTest/BowlingGamesTest/bin/Debug/BowlingGamesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingGamesTest.BowlingGameTest, BowlingGamesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGutter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="da8ec00d-e275-2139-8d9a-7f8698a65513" executionId="efd90c98-09ed-4364-93bf-88a3a7a15924" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04e56434-7492-10f0-6745-256af73e56eb" executionId="92bde9eb-05b3-4e65-a71a-681044c0955e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a69a0a7-0eea-dabb-17d9-ad1acba519a5" executionId="ee4eba23-4572-4e99-abac-8793f08ddee9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fa7a1b3-788c-c8fe-caf0-33252efd04c0" executionId="727efaa7-baf1-4737-9e85-417f23d84ac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e8508b0-51aa-3918-e685-72720ceb8b2d" executionId="fcf89d43-eee4-45f7-8328-a18e4883b286" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="efd90c98-09ed-4364-93bf-88a3a7a15924" testId="da8ec00d-e275-2139-8d9a-7f8698a65513" testName="TestGutter" computerName="KENROACHLAPTOP" duration="00:00:00.0218789" startTime="2016-04-11T14:19:12.4820044-04:00" endTime="2016-04-11T14:19:16.0702097-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efd90c98-09ed-4364-93bf-88a3a7a15924">
+    </UnitTestResult>
+    <UnitTestResult executionId="92bde9eb-05b3-4e65-a71a-681044c0955e" testId="04e56434-7492-10f0-6745-256af73e56eb" testName="TestHittingOnePin" computerName="KENROACHLAPTOP" duration="00:00:00.0004670" startTime="2016-04-11T14:19:16.0852105-04:00" endTime="2016-04-11T14:19:16.0952111-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92bde9eb-05b3-4e65-a71a-681044c0955e">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee4eba23-4572-4e99-abac-8793f08ddee9" testId="4a69a0a7-0eea-dabb-17d9-ad1acba519a5" testName="TestHittingnoPinrolling" computerName="KENROACHLAPTOP" duration="00:00:00.0007934" startTime="2016-04-11T14:19:16.1092119-04:00" endTime="2016-04-11T14:19:16.1202125-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee4eba23-4572-4e99-abac-8793f08ddee9">
+    </UnitTestResult>
+    <UnitTestResult executionId="727efaa7-baf1-4737-9e85-417f23d84ac5" testId="0fa7a1b3-788c-c8fe-caf0-33252efd04c0" testName="TestHittingOnePinrolling" computerName="KENROACHLAPTOP" duration="00:00:00.0004478" startTime="2016-04-11T14:19:16.1342133-04:00" endTime="2016-04-11T14:19:16.1422138-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="727efaa7-baf1-4737-9e85-417f23d84ac5">
+    </UnitTestResult>
+    <UnitTestResult executionId="fcf89d43-eee4-45f7-8328-a18e4883b286" testId="0e8508b0-51aa-3918-e685-72720ceb8b2d" testName="TestOneSpare" computerName="KENROACHLAPTOP" duration="00:00:00.0006420" startTime="2016-04-11T14:19:16.1602148-04:00" endTime="2016-04-11T14:19:16.1682153-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcf89d43-eee4-45f7-8328-a18e4883b286">
+    </UnitTestResult>
+  </Results>
+</TestRun>
